@@ -1,8 +1,8 @@
 public class SortedIntList extends IntListVer3{
     
-    public SortedIntList(int initialcap){
+    public SortedIntList(int initCap){
         //call IntList constructor
-        super(initialcap);
+        super(initCap);
     }
     
     public SortedIntList(){
