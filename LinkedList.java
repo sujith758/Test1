@@ -31,13 +31,7 @@ public class LinkedList implements Iterable {
             return result;
         }
         
-        public void remove(){
-            assert removeOK;
-            removeOK = false;
-            LinkedList.this.remove(posToRemove);
-            posToRemove--;
-        }
-    }
+        
     
     public void makeEmpty(){
         // let GC do its job!!!!!!!
