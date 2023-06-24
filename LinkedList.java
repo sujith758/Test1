@@ -4,15 +4,7 @@ import java.util.Iterator;
 
 import Summer08.Node;
 
-public class LinkedList implements Iterable {
-    private Node head;
-    private Node tail;
-    private int size;
-    
-    public Iterator iterator(){
-        return new LLIterator();
-    }
-    
+
     
         
         public boolean hasNext(){
