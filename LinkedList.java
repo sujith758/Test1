@@ -13,16 +13,7 @@ public class LinkedList implements Iterable {
         return new LLIterator();
     }
     
-    private class LLIterator implements Iterator{
-        private Node nextNode;
-        private boolean removeOK;
-        private int posToRemove;
-        
-        private LLIterator(){
-            nextNode = head;
-            removeOK = false;
-            posToRemove = -1;
-        }
+    
         
         public boolean hasNext(){
             return nextNode != null;
