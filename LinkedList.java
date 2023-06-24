@@ -6,10 +6,7 @@ import Summer08.Node;
 
 
     
-        
-        public boolean hasNext(){
-            return nextNode != null;
-        }
+      
         
         public Object next(){
             assert hasNext();
